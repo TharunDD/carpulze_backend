@@ -9,7 +9,7 @@ const bk=require('./src/routes/booker');
 const admin=require('./src/routes/admin');
 const veftok = require("./src/middleware/decoder");
 // sample
-const app=express(); //sample
+const app=express(); 
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(cors());
